@@ -10,7 +10,7 @@
         android:id="@+id/hhh"
         android:layout_width="match_parent"
         android:layout_height="450dp"
-        android:background="@drawable/radius_green"
+        android:background="@drawable/gradient_green"
         android:layout_marginTop="250dp"
         android:orientation="horizontal">
 
@@ -20,7 +20,7 @@
         android:id="@+id/ggg"
         android:layout_width="match_parent"
         android:layout_height="350dp"
-        android:background="@drawable/radius_purple"
+        android:background="@drawable/radius_with_gradient_green"
       android:layout_marginTop="130dp"
         android:orientation="horizontal">
 
@@ -29,22 +29,26 @@
     <RelativeLayout
         android:id="@+id/fff"
         android:layout_width="match_parent"
-        android:layout_height="220dp"
+        android:layout_height="320dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
         android:background="@drawable/radius_hell_grau"
-        android:orientation="horizontal"
-        android:gravity="center">
+        >
         <ImageView
             android:id="@+id/img_werkzeug"
             android:layout_width="230dp"
             android:layout_height="150dp"
-            android:src="@drawable/werkzeug" />
+            android:src="@drawable/werkzeug"
+            android:layout_centerInParent="true"/>
 
         <ImageButton
             android:id="@+id/imgBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignRight="@id/img_werkzeug"
-            android:src="@drawable/heart_fill" />
+            android:background="@color/hell_grau"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/favorite_selector"
+            />
 
     </RelativeLayout>
 
