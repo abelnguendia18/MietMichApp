@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- Last Bloc 3-->
+    <LinearLayout
+        android:id="@+id/hhh"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/radius_green"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <!-- Second Bloc 2-->
+    <LinearLayout
+        android:id="@+id/ggg"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/radius_purple"
+      android:layout_marginTop="130dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+<!-- First Bloc 1-->
+    <RelativeLayout
+        android:id="@+id/fff"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/radius_hell_grau"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/img_werkzeug"
+            android:layout_width="230dp"
+            android:layout_height="150dp"
+            android:src="@drawable/werkzeug" />
+
+        <ImageButton
+            android:id="@+id/imgBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/img_werkzeug"
+            android:src="@drawable/heart_fill" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
