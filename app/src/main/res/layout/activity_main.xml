@@ -6,34 +6,125 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <!-- Last Bloc 3-->
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/hhh"
         android:layout_width="match_parent"
         android:layout_height="450dp"
         android:background="@drawable/gradient_green"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="300dp"
         android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="115dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:text="Anbieter"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:maxLines="8"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal|center"
+
+                android:textSize="14dp"
+                android:text="Wenn sich eine Tür des Glücks schließt, öffnet sich eine andere, aber oft schauen wir so lange auf die geschlossene Tür, dass wir die für uns. "/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_anrufen"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:drawableLeft="@drawable/ic_baseline_call_24"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Anrufen"/>
+            <Button
+                android:id="@+id/btn_schreiben"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:drawableLeft="@drawable/icon_envelope"
+                android:gravity="center"
+
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textAllCaps="false"
+
+                android:text="Schreiben"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
     <!-- Second Bloc 2-->
     <LinearLayout
         android:id="@+id/ggg"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="280dp"
         android:background="@drawable/radius_with_gradient_green"
+
       android:layout_marginTop="130dp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="110dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="Beschreibung"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:maxLines="8"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal|center"
+
+            android:textSize="14dp"
+            android:text="Wenn sich eine Tür des Glücks schließt, öffnet sich eine andere, aber oft schauen wir so lange auf die geschlossene Tür, dass wir die für uns. "/>
 
     </LinearLayout>
 <!-- First Bloc 1-->
     <RelativeLayout
         android:id="@+id/fff"
         android:layout_width="match_parent"
-        android:layout_height="320dp"
+        android:layout_height="230dp"
         android:paddingRight="20dp"
         android:paddingTop="20dp"
         android:background="@drawable/radius_hell_grau"
         >
+
+ <!--       <com.synnapps.carouselview.CarouselView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>-->
         <ImageView
             android:id="@+id/img_werkzeug"
             android:layout_width="230dp"
@@ -47,8 +138,25 @@
             android:layout_height="wrap_content"
             android:background="@color/hell_grau"
             android:layout_alignParentRight="true"
-            android:src="@drawable/favorite_selector"
+            android:src="@drawable/fav_icon2_filled"
             />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_position"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Schönfelder Straße 2, 68547 Mannheim"/>
+        </LinearLayout>
 
     </RelativeLayout>
 

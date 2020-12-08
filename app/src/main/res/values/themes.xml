@@ -18,7 +18,7 @@
 
     <style name="Theme.MietMichApp" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimary">@color/hell_grau</item>
         <item name="colorPrimaryDark">@color/black</item>
         <item name="colorAccent">@color/black</item>
 
